@@ -1,5 +1,5 @@
-module.exports = myUI;
+import Button from "./Button";
 
-function myUI() {
-  console.log("Front components package!");
-}
+module.exports = {
+  Button,
+};
