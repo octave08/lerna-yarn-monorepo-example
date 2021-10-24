@@ -5,8 +5,12 @@ interface Props {
   children: React.ReactNode
 }
 
-const Button: React.FC<Props> = ({ onClick, children }: Props) => {
-  return <button onClick={onClick}>{children}</button>
+const Button: React.FC<Props> = ({ onClick, children, ...rest }: Props) => {
+  return (
+    <button onClick={onClick} {...rest}>
+      {children}
+    </button>
+  )
 }
 
 export default Button
