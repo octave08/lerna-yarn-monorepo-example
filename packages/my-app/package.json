@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint --ext .ts,.tsx .",
     "format": "prettier --write ./src/**/*.{ts,tsx}",
-    "cypress": "cypress open"
+    "cypress": "cypress open",
+    "test": "cypress run"
   },
   "dependencies": {
     "@octave08/my-ui": "0.0.1",
