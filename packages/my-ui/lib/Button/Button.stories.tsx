@@ -9,11 +9,11 @@ export default {
   component: Button,
 } as Meta
 
-export const Text = () => (
+export const Text: React.VFC = () => (
   <Button onClick={action('clicked')}>Hello Button</Button>
 )
 
-export const Emoji = () => (
+export const Emoji: React.VFC = () => (
   <Button onClick={action('clicked')}>
     <span role="img" aria-label="so cool">
       😀 😎 👍 💯

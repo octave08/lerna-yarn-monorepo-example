@@ -1,12 +1,15 @@
 {
   "compilerOptions": {
     "jsx": "react",
+    "lib": ["dom", "esnext"],
     "target": "ESNext",
     "module": "ESNext",
     "declaration": true,
     "outDir": "dist",
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "strictBindCallApply": true,
+    "esModuleInterop": true
   },
   "include": ["lib/**/*"],
   "exclude": ["node_modules", "**/*-spec.ts", "**/*.stories.tsx"]
