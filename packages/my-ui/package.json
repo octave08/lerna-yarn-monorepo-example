@@ -16,7 +16,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
+    "test": "jest --setupFiles ./setupFile.js",
     "build": "microbundle --jsx React.createElement",
     "dev": "microbundle watch --jsx React.createElement",
     "storybook": "start-storybook -p 6006",
@@ -25,14 +25,23 @@
     "format": "prettier --write ./lib/**/*.{ts,tsx}"
   },
   "devDependencies": {
-    "@octave08/eslint-config-node": "1.0.0",
     "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@octave08/eslint-config-node": "1.0.0",
     "@storybook/addon-actions": "^6.3.12",
     "@storybook/addon-essentials": "^6.3.12",
     "@storybook/addon-links": "^6.3.12",
     "@storybook/react": "^6.3.12",
+    "@storybook/testing-react": "^0.0.22",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.0.2",
+    "babel-jest": "^27.3.1",
     "babel-loader": "^8.2.3",
-    "microbundle": "^0.14.1"
+    "jest": "26.6.3",
+    "microbundle": "^0.14.1",
+    "ts-jest": "^26.5.6"
   },
   "dependencies": {
     "react": "^17.0.2"
