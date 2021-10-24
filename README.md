@@ -14,6 +14,7 @@
 - microbundle
 - eslint & prettier
 - testing-library/react
+- cypress
 
 ## 기본 설정
 
