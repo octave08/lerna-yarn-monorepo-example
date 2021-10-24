@@ -1,0 +1,17 @@
+{
+  "name": "@octave08/eslint-config-node",
+  "version": "1.0.0",
+  "author": "GYUJEONG HWANG <octave08b@gmail.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.4.1"
+  }
+}
