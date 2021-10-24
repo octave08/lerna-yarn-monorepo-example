@@ -5,7 +5,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "format": "prettier --write ./**/*.js"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.1.0",

@@ -21,7 +21,8 @@
     "dev": "microbundle watch --jsx React.createElement",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "lint": "eslint --ext .ts,.tsx ."
+    "lint": "eslint --ext .ts,.tsx .",
+    "format": "prettier --write ./lib/**/*.{ts,tsx}"
   },
   "devDependencies": {
     "@octave08/eslint-config-node": "1.0.0",

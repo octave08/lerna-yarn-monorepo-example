@@ -1,4 +1,4 @@
 /* eslint @typescript-eslint/no-var-requires: "off" */
-const config = require("./.eslintrc.js");
+const config = require('./.eslintrc.js')
 
-module.exports = config;
+module.exports = config
