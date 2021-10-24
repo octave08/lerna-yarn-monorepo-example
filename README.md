@@ -60,3 +60,10 @@ TypeError: Cannot read properties of undefined (reading 'createElement')
 
 - The error below may be caused by using the wrong test environment, see https://jestjs.io/docs/en/configuration#testenvironment-string.
   Consider using the "jsdom" test environment.
+
+### monorepo 구성
+
+Can't find module when using monorepo
+
+- https://github.com/import-js/eslint-plugin-import/issues/1677
+- https://stackoverflow.com/questions/66081171/lerna-yarn-and-typescript-cannot-find-module-or-its-corresponding-type-declar
