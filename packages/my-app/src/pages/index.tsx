@@ -3,10 +3,9 @@ import Head from 'next/head'
 
 import styles from './home.module.css'
 
-import { Button } from 'my-ui'
+import { Button } from '@octave08/my-ui'
 
 const Home: NextPage = () => {
-  const hello = 0
   return (
     <div className={styles.container}>
       <Head>
