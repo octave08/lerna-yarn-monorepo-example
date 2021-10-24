@@ -12,7 +12,9 @@ const Home: NextPage = () => {
         <title>lerna-nextjs-storybook</title>
       </Head>
       <div>lerna-nextjs-storybook</div>
-      <Button onClick={() => alert('clicked')}>Hello World</Button>
+      <Button data-cy="button" onClick={() => alert('clicked')}>
+        Hello World
+      </Button>
     </div>
   )
 }
